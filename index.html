@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfólio - Livia Gouveia</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="petalas-container" aria-hidden="true">
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+    <span class="petala"></span>
+  </div>
+
+  <header class="navbar">
+    <div class="logo">Meu Portfólio</div>
+    <nav>
+      <a href="#home" class="ativo">HOME</a>
+      <a href="#sobre">SOBRE</a>
+      <a href="#habilidades">HABILIDADES</a>
+  
+      <a href="#hobbies">HOBBIES</a>
+      <a href="#contato">CONTATO</a>
+    </nav>
+    <div class="acoes-menu">
+      
+      <button type="button" id="btn-tema" class="btn-tema" title="Alternar modo escuro">🌙</button>
+    </div>
+  </header>
+
+  <main id="home" class="hero">
+    <div class="hero-texto">
+      <span class="saudacao">— OLÁ</span>
+      <h1>Eu sou <span class="destaque">Lívia Gouveia</span></h1>
+      <p>Estudante de Análise e Desenvolvimento de Sistemas com foco em Dados, Banco de Dados e organização de processos.</p>
+      <a href="curriculo livia gouveia.pdf" download="Curriculo-Livia-Gouveia.pdf" class="botao">BAIXAR CV</a>
+    </div>
+
+    <div class="hero-imagem">
+      <img src="img/A.png" alt="Foto de Livia Gouveia">
+    </div>
+  </main>
+
+
+  <section id="sobre" class="sobre">
+    <div class="sobre-conteudo">
+      <h2>Sobre <span class="destaque">Mim</span></h2>
+      <p>
+        Olá! Meu nome é Lívia, tenho 20 anos e sou estudante de Análise e Desenvolvimento de Sistemas (ADS). Escolhi a área de tecnologia pela paixão que tenho por ela e pelas inúmeras oportunidades de construir o futuro profissional que desejo. No início sou uma pessoa mais reservada, mas, com o tempo e no convívio, mostro meu lado mais comunicativo e colaborativo.
+      </p>
+    </div>
+  </section>
+
+
+  <section id="habilidades" class="habilidades">
+    <div class="habilidades-titulo">
+      <span class="subtitulo">— O QUE EU ESTUDO ?</span>
+      <h2>Minhas <span class="destaque">Habilidades</span></h2>
+    </div>
+
+    <div class="cards-container">
+      <!-- Card 1 -->
+      <div class="card">
+        <img src="img/H.png" alt="HTML e CSS" width="80" height="80">
+        <h3>Html e Css</h3>
+        <p>Criação de páginas estruturadas e estilizadas com HTML5 e CSS3, com foco em design limpo e responsivo.</p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="card">
+        <img src="img/P.png" alt="Python" width="80" height="80">
+        <h3>Python</h3>
+        <p>Desenvolvimento de lógica de programação, automações e manipulação estruturada de dados.</p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card">
+        <img src="img/S.png" alt="SQL e Dados" width="80" height="80">
+        <h3>Banco de Dados & SQL</h3>
+        <p>Modelagem relacional, consultas estruturadas e gerenciamento de dados para análise de sistemas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mural de Polaroids + Texto ao lado -->
+  <section id="hobbies" class="secao-polaroid">
+    <div class="polaroid-layout">
+      
+      <div class="mural-polaroids">
+        <div class="polaroid p1">
+          <img src="img/foto1.jpeg" alt="Foto 1">
+          <span>Minha família</span>
+        </div>
+
+        <div class="polaroid p2">
+          <img src="img/foto2.jpeg" alt="Foto 2">
+          <span>Sozinha</span>
+        </div>
+
+        <div class="polaroid p3">
+          <img src="img/foto3.jpeg" alt="Foto 3">
+          <span>Momentos diferentes</span>
+        </div>
+
+        <div class="polaroid p4">
+          <img src="img/foto4.jpeg" alt="Foto 4">
+          <span>MInha cura</span>
+        </div>
+
+       
+        <div class="polaroid p5">
+          <img src="img/foto5.jpeg" alt="Foto 5">
+          <span>Você quando era pequena</span>
+        </div>
+      </div>
+
+     
+      <div class="polaroid-texto">
+        <span class="subtitulo">— UM POUCO MAIS SOBRE MIM</span>
+        <h2>Meus Momentos & Hobbies</h2>
+        <p>
+          Fora dos estudos e do trabalho, gosto muito de tirar fotos para guardar bons momentos, acampar e aproveitar o contato com a natureza.
+        </p>
+        <p>
+          Também adoro sair com os meus amigos para dar boas risadas e faço doações para ONGs de cachorro sempre que posso, porque ajudar os animais faz toda a diferença.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  
+  <section id="contato" class="contato">
+    <div class="contato-conteudo">
+      <span class="subtitulo">— FALE COMIGO</span>
+      <h2>Entre em <span class="destaque">Contato</span></h2>
+      <p>
+        Quer conversar sobre oportunidades, projetos, dados ou estágios? Me envie uma mensagem ou fale pelos meus canais.
+      </p>
+
+      <div class="contato-links">
+       
+        
+      </div>
+
+      <form class="contato-form" action="mailto:seuemail@exemplo.com" method="post" enctype="text/plain">
+        <div class="form-linha">
+          <input type="text" name="nome" placeholder="Seu nome" required>
+          <input type="email" name="email" placeholder="Seu e-mail" required>
+        </div>
+        <textarea name="mensagem" rows="4" placeholder="Escreva sua mensagem..." required></textarea>
+        <button type="submit" class="botao">ENVIAR MENSAGEM</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- JavaScript externo na pasta js/ -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
